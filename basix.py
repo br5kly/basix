@@ -1,5 +1,6 @@
 import os
 import sys
+os.system('pkg upgrade -y')
 try:
     import rich
 except ImportError:
