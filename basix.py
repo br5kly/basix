@@ -21,4 +21,4 @@ try:
     print("1000000000% DOOOONE \n BY ZEYAD ALABANY")
 except ImportError:
     print("\033[1;31m ERROR MYABE YOUR TERMUX CRASH DOWNLOAD ORGINALA TERMUX FROM HERE")
-    os.system('xdg-open https://f-droid.org/repo/com.termux_118.apk")
+    os.system('xdg-open https://f-droid.org/repo/com.termux_118.apk')
