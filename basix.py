@@ -1,4 +1,5 @@
 import os
+import sys
 try:
     import rich
 except ImportError:
@@ -12,13 +13,15 @@ try:
 except ImportError:
     os.system('pip install bs4')
 try:
-    import stodiomask
+    import stdiomask
 except ImportError:
-    os.system('pip install stodiomask')
+    os.system('pip install stdiomask')
 
 try:
-    import reqeusts
+    import requests
+    sys.clear()
     print("1000000000% DOOOONE \n BY ZEYAD ALABANY")
 except ImportError:
+    sys.clear()
     print("\033[1;31m ERROR MYABE YOUR TERMUX CRASH DOWNLOAD ORGINALA TERMUX FROM HERE")
     os.system('xdg-open https://f-droid.org/repo/com.termux_118.apk')
