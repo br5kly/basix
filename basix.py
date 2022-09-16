@@ -8,7 +8,7 @@ except ImportError:
 try:
     import requests
 except ImportError:
-    os.system('pip install reqeusts')
+    os.system('pip install requests')
 try:
     import bs4
 except ImportError:
