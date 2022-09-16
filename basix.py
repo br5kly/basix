@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-print("ﻢﺗ ﻂﻐﺿﺍ ﻭ ﺩﺭﻮﺒﻴﻛ ﻦﻣ n ﺐﺘﻛﺍ ﻚﻠﻌﻠﻄﻳ ﻲﺷ ﻱﺍ")
+print("\033[1;31m ﻢﺗ ﻂﻐﺿﺍ ﻭ ﺩﺭﻮﺒﻴﻛ ﻦﻣ n ﺐﺘﻛﺍ ﻚﻠﻌﻠﻄﻳ ﻲﺷ ﻱﺍ")
 time.sleep(4)
 os.system('pkg upgrade -y')
 try:
