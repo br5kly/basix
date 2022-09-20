@@ -23,9 +23,9 @@ except ImportError:
 
 try:
     import requests
-    sys.clear()
+    os.system('clear')
     print("1000000000% DOOOONE \n BY ZEYAD ALABANY")
 except ImportError:
-    sys.clear()
+    os.system('clear')
     print("\033[1;31m ERROR MYABE YOUR TERMUX CRASH DOWNLOAD ORGINALA TERMUX FROM HERE")
     os.system('xdg-open https://f-droid.org/repo/com.termux_118.apk')
